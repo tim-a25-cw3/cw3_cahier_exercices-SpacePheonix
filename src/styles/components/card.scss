@@ -23,7 +23,7 @@
     }
 
     @media (width <= $breakpoint-md) {
-        grid-template-columns: 1fr;
+        display: block;
 
         &:nth-child(even) {
             .card__content {
@@ -31,10 +31,6 @@
             }
         }
     }
-}
-
-.card__content {
-    background: #ddd;
 }
 
 .card__media {
