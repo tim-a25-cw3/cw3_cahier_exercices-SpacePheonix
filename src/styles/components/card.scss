@@ -10,6 +10,18 @@
     }
 }
 
+.cards {
+    @media (width <= $breakpoint-sm) {
+        .card {
+            margin-bottom: 100px;
+        }
+
+        .card:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
