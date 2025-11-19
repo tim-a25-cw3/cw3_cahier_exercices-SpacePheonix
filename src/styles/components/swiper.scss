@@ -11,6 +11,9 @@
     }
     .button {
         background: var(--color-white);
+        &:hover {
+        color: var(--color-primary);
+    }
     }
     .span {
         font-weight: 300;

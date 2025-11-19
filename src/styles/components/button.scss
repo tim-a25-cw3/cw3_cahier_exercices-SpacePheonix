@@ -10,4 +10,8 @@
     font-size: typo(16px);
     font-weight: 700;
     text-transform: uppercase;
+    &:hover {
+        color: var(--color-white);
+        text-decoration: none;
+    }
 }
