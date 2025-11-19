@@ -9,5 +9,8 @@
     z-index: 2;
     a {
         color: var(--color-white);
+        text-transform: uppercase;
+        font-family: var(--font-secondary);
+        font-size: typo(20px);
     }
 }
