@@ -1,0 +1,13 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-black);
+    background: var(--color-primary);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: typo(16px);
+    font-weight: 700;
+    text-transform: uppercase;
+}
