@@ -11,6 +11,10 @@
 
 .hero__content {
     color: var(--color-white);
+    width: 60%;
+    h1 {
+        font-size: var(--font-size-h1);
+    }
 }
 
 .hero__media {
